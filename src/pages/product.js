@@ -1,9 +1,11 @@
 import React from "react"
+import ProductImg from "../assets/product.jpg"
 
 export default function Product() {
   return (
     <div style={{ color: `teal` }}>
       <h1>I. Create. Healthy</h1>
+      <h4>You. Become. Healthy</h4>
       <p>
         Such wow. Very React. is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -15,6 +17,7 @@ export default function Product() {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <img style={{ width: `20rem` }} src={ProductImg} alt="product" />
     </div>
   )
 }
