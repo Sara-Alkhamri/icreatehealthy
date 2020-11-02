@@ -1,8 +1,10 @@
 import React from "react"
+import Layout from "../components/layout"
 
 export default function Contact() {
   return (
     <div style={{ color: `teal` }}>
+      <Layout />
       <h1>We'd Love to Hear From You!</h1>
       <p>
         Such wow. Very React. is simply dummy text of the printing and

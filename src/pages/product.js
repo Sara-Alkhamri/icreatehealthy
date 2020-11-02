@@ -1,11 +1,13 @@
 import React from "react"
 import ProductImg from "../assets/product.jpg"
+import Layout from "../components/layout"
 
 export default function Product() {
   return (
     <div style={{ color: `teal` }}>
-      <h1>I. Create. Healthy</h1>
-      <h4>You. Become. Healthy</h4>
+      <Layout />
+      {/* <h1>I. Create. Healthy</h1>
+      <h4>You. Become. Healthy</h4> */}
       <p>
         Such wow. Very React. is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy

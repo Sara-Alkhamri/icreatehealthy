@@ -1,9 +1,10 @@
 import React from "react"
 import aboutImage from "../assets/aboutImg.jpg"
-
+import Layout from "../components/layout"
 export default function About() {
   return (
-    <div style={{ color: `teal` }}>
+    <div>
+      <Layout />
       <h1>Our Story</h1>
       <p>
         Such wow. Very React. is simply dummy text of the printing and

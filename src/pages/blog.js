@@ -1,9 +1,11 @@
 import React from "react"
+import Layout from "../components/layout"
 
 export default function Blog() {
   return (
     <div style={{ color: `teal` }}>
-      <h1>I. Create. Healthy - Blog</h1>
+      <Layout />
+      {/* <h1>I. Create. Healthy - Blog</h1> */}
       <p>
         Such wow. Very React. is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy
