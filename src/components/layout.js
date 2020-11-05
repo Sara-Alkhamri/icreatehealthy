@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       <div
         style={{
           margin: `3rem auto`,
-          maxWidth: 650,
+          maxWidth: `0 auto`,
           padding: `0 1rem`,
         }}
       >

@@ -16,6 +16,13 @@ export default class MyForm extends React.Component {
       <>
         <Layout />
         <form
+          style={{
+            display: `flex`,
+            flexDirection: `column`,
+            margin: `3rem auto`,
+            maxWidth: `100%`,
+            padding: `0 1rem`,
+          }}
           onSubmit={this.submitForm}
           action="https://formspree.io/f/mlelvvla"
           method="POST"
@@ -28,10 +35,10 @@ export default class MyForm extends React.Component {
             Email
             <input type="email" name="email" id="email" />
           </label>
-          <label>
+          {/* <label>
             Subject
             <input type="text" name="subject" id="subject" />
-          </label>
+          </label> */}
           <label>
             Message
             <textarea name="message" id="message" rows="5" />
